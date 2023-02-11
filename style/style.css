@@ -1,0 +1,246 @@
+body {
+  background-color: #fff;
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white: #ffffff;
+  --main-gap: 24px;
+  --second-gap: 48px;
+}
+
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.item-nav {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.logo-header {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-header-web {
+  color: #4d5ae5;
+}
+.tel-mail {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.hero {
+  background: #2e2f42;
+  text-align: center;
+}
+.button-hero {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 16px 32px;
+  gap: 10px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+}
+.about-us-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: var(--dark);
+}
+.about-us-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+.what-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.our-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.employees {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.work {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+.footer-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CORNFLOWER */
+
+  color: #e7e9fc;
+}
+.footer {
+  background: #2e2f42;
+}
+.logo-footer-foot {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+.footer-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CORNFLOWER */
+
+  color: #e7e9fc;
+}
+.logo-footer {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.item-nav:active {
+  color: #404bbf;
+}
+button {
+  cursor: pointer;
+}
+.hero button:hover,
+button:focus {
+  background-color: #404bbf;
+}
