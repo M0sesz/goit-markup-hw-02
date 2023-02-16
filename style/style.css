@@ -22,12 +22,11 @@ li {
   text-decoration: none;
 }
 .item-nav {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .logo-header {
   font-family: 'Raleway';
@@ -38,189 +37,129 @@ li {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark);
 }
 .logo-header-web {
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .tel-mail {
-  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text);
 }
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  /* or 107% */
-
   text-align: center;
   letter-spacing: 0.02em;
-
-  color: #ffffff;
+  color: var(--white);
 }
 .hero {
-  background: #2e2f42;
+  background: var(--dark);
   text-align: center;
 }
 .button-hero {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   align-items: center;
   line-height: 24px;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
   padding: 16px 32px;
   gap: 10px;
-  background: #4d5ae5;
+  background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
 }
 .about-us-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height, or 120% */
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: var(--dark);
 }
 .about-us-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: var(--text);
 }
 .what-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  /* identical to box height, or 111% */
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--dark);
 }
 .our-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  /* identical to box height, or 111% */
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--dark);
 }
 .employees {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--dark);
 }
 .work {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: var(--dark);
 }
 .footer-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* CORNFLOWER */
-
-  color: #e7e9fc;
+  color: var(--accent);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .logo-footer-foot {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .footer-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   letter-spacing: 0.02em;
-
-  /* CORNFLOWER */
-
-  color: #e7e9fc;
+  color: var(--accent);
 }
 .logo-footer {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* CLOUD */
-
-  color: #f4f4fd;
+  color: var(--light);
 }
 .visually-hidden {
   position: absolute;
@@ -235,12 +174,60 @@ li {
   overflow: hidden;
 }
 .item-nav:active {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 button {
   cursor: pointer;
 }
 .hero button:hover,
 button:focus {
-  background-color: #404bbf;
+  background-color: var(--pressed-state);
+}
+button {
+  font-family: inherit;
+}
+.potfolio-button {
+  background: var(--light);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+}
+.logo-footer {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+.item-nav:hover {
+  color: var(--pressed-state);
+}
+.item-nav:focus {
+  color: var(--pressed-state);
+}
+
+.potfolio-button:hover {
+  background: var(--pressed-state);
+  color: var(--light);
+}
+.potfolio-button:focus {
+  background: var(--pressed-state);
+  color: var(--light);
+}
+.mal:hover {
+  color: var(--pressed-state);
+}
+.mal:focus {
+  color: var(--pressed-state);
 }
