@@ -1,6 +1,11 @@
 body {
   background-color: #fff;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-size: 16px;
 }
 :root {
   --primary-brand: #4d5ae5;
@@ -15,7 +20,6 @@ body {
   --main-gap: 24px;
   --second-gap: 48px;
 }
-
 a,
 li {
   list-style-type: none;
@@ -23,8 +27,6 @@ li {
 }
 .item-nav {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
@@ -32,7 +34,6 @@ li {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -43,11 +44,6 @@ li {
   color: var(--primary-brand);
 }
 .tel-mail {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 .hero-title {
@@ -55,7 +51,6 @@ li {
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--white);
 }
 .hero {
@@ -64,9 +59,7 @@ li {
 }
 .button-hero {
   font-weight: 500;
-  font-size: 16px;
   align-items: center;
-  line-height: 24px;
   letter-spacing: 0.04em;
   color: var(--white);
   padding: 16px 32px;
@@ -79,15 +72,10 @@ li {
 .about-us-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .about-us-text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 .what-title {
@@ -95,7 +83,6 @@ li {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
 }
@@ -104,29 +91,18 @@ li {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
 }
 .employees {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .work {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--accent);
 }
 .footer {
@@ -144,10 +120,6 @@ li {
   color: var(--primary-brand);
 }
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: var(--accent);
 }
 .logo-footer {
@@ -191,8 +163,6 @@ button {
   border: 1px solid var(--accent);
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -220,6 +190,7 @@ button {
 .potfolio-button:hover {
   background: var(--pressed-state);
   color: var(--light);
+  border-color: var(--pressed-state);
 }
 .potfolio-button:focus {
   background: var(--pressed-state);
