@@ -44,6 +44,8 @@ li {
   color: var(--primary-brand);
 }
 .tel-mail {
+  font-family: 'Roboto';
+  font-style: normal;
   color: var(--text);
 }
 .hero-title {
